@@ -15,6 +15,7 @@ public class NumberAnalyser {
         return max;
     }
 
+
     static int findMin(int[] arr){
         int min = arr[0];
         for(int num: arr){
