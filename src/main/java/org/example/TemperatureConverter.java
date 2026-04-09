@@ -2,7 +2,7 @@ package org.example;
 
 public class TemperatureConverter {
 
-    static double celsiusToFahrenheit(double c){
+    static                                double celsiusToFahrenheit(double c){
         return  (c * ((9.0/5.0))) + 32;
     }
     static double fahrenheitToCelsius(double f){

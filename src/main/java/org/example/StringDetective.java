@@ -31,6 +31,7 @@ public class StringDetective {
         return count;
     }
 
+
     static String reverseWords(String s){
         String[] myArray= s.split(" ");
         int start = 0;
@@ -59,6 +60,5 @@ public class StringDetective {
         System.out.println(countVowels("aeiou"));
         System.out.println(reverseWords("hello world java"));
         System.out.println(capitaliseEachWord("we think code"));
-
     }
 }
